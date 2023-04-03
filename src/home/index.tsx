@@ -4,7 +4,9 @@ import { useEffect, useState } from 'react';
 
 export const Home = () => {
     useEffect(() => {
-        firestore.get('photos').then((data) => {
+        firestore.get('data').then((data) => {
+            console.log(data,'data');
+            
           setPhotos(data)
         }); 
       }, [])

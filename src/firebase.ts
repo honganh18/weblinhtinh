@@ -6,13 +6,13 @@ import { addDoc, collection, deleteDoc, doc, Firestore, getDoc, getDocs, getFire
 import { createUserWithEmailAndPassword, getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyA_cWBOSYsklCHpKbeW4ZZC58ft1SHPkbs',
-  authDomain: 'videocollector-0000.firebaseapp.com',
-  projectId: 'videocollector-0000',
-  storageBucket: 'videocollector-0000.appspot.com',
-  messagingSenderId: '42551320152',
-  appId: '1:42551320152:web:b964482944908c5c7a742d',
-  measurementId: 'G-17TW22FZCY'
+  apiKey: "AIzaSyCgx6seYQcj6kbze0NtaKGQjZhjdUHg7bM",
+  authDomain: "weblinhtinh-123.firebaseapp.com",
+  projectId: "weblinhtinh-123",
+  storageBucket: "weblinhtinh-123.appspot.com",
+  messagingSenderId: "238511914455",
+  appId: "1:238511914455:web:a9667a1f3817ff5fc75f92",
+  measurementId: "G-J4STS7JJGG"
 };
 
 export const firebaseApp = (): FirebaseApp => {
